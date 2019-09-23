@@ -1,0 +1,294 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+header{
+    width: 100%;
+    position: fixed;
+    background: #fff;
+    nav{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 16px;
+        margin: 0 auto;
+        
+        .nav-left{
+            width: 20%;
+        }
+        
+        .nav-center{
+            width: 60%;
+            form{
+                display: flex;
+
+                .group-search{
+                    width: 80%;
+                    border: 1px solid #ccc;
+                    box-shadow: inset 0 1px 2px #eee;
+                }
+
+                #input-pesquisar{
+                    width: 92%;
+                    height: 26px;
+                    padding: 2px 6px;
+                    font-size: 16px;
+                    border: none;
+                    outline: none;
+                }
+                #btn-pesquisa{
+                    background: #F8F8F8;
+                    border: 1px solid #ccc;
+                    height: 100%;
+                    width: 65px;
+                    height: 32px;
+                    outline: none;
+                }
+            }
+        }
+
+        .nav-right{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            width: 20%;
+            font-size: 20px;
+
+            #user{
+                font-size: 32px;
+            }
+        }
+    }
+}
+aside{
+    position: fixed;
+    flex-direction: column;
+    width: 20%;
+    margin-top: 72px;
+    float: left;
+    height: 100vh;
+    overflow-y: auto;
+    overflow-x: hidden;
+    background: #fff;
+
+    a{
+        width: 100%;
+        height: 45px;
+        display: flex;
+        align-items: center;
+        padding-left: 24px;
+    }
+
+    b{
+        width: 100%;
+        margin-bottom: 10px;
+        display: flex;
+        align-items: center;
+        padding-left: 24px;
+        color: #606060;
+    }
+
+    i{
+        width: 30px;
+        padding-right: 24px;
+        font-size: 20px;
+    }
+
+    a:hover{
+        background-color: #F2F2F2;
+    }
+
+    .active{
+        background: #E5E5E5;        
+        width: 100%;
+        i{
+            color: #FF0000; 
+        }
+    }
+
+    hr{
+        margin-top: 20px;
+        margin-bottom: 20px;
+        border: 1px solid rgba(0, 0, 0, 0.1);
+    }
+    
+    .about{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        font-size: 14px;
+        color: #606060;
+        padding: 16px 24px 0px;
+        line-height: 20px;
+
+        p{
+            width: 200px;
+            margin-bottom: 5px;
+            cursor: pointer;
+        }
+        
+        span{
+            color: #c0c0c0;
+            margin-bottom: 100px;
+        }
+    }
+}
+aside::-webkit-scrollbar{
+    background: #fff;
+    width: 7px;
+}
+aside::-webkit-scrollbar-thumb {
+    background: #CFCFCF;
+}
+
+section{
+    padding-left: 18%;
+    padding-top: 75px;
+    background: #F9F9F9;
+    margin-bottom: 100px;
+
+    .ad{
+        display: flex;
+        max-width: 1000px;
+        height: 240px;
+        margin: 0 auto;
+
+        .ad-left{
+            img{
+                height :240px;
+                margin-right: 10px;
+            }
+        }
+        .ad-right{
+
+            img{
+                width: 100%;
+                height: 120px;
+                object-fit: cover;
+            }
+            
+            .ad-right-down{
+                display: flex;
+                align-items: center;
+                margin-top: 25px;
+
+                .config-ad{
+                    margin-left: 318px;
+                    font-size: 20px;
+                    margin-top: -60px;
+                }
+            }
+
+            i{
+                font-size: 80px;
+            }
+        }
+
+        .canal-ad{
+            display: flex;
+            flex-direction: column;
+            margin-left: 30px;
+
+            .ad-info{
+                display: flex;
+                justify-content: space-between;
+                width: 130px;
+                margin-top: 5px;
+                margin-bottom: 5px;
+
+                p{
+                    color: #606060;
+                }
+            }
+
+            .id-tag{
+                background: #E6BC27;
+                color: #fff;
+                font-size: 14px;
+                padding: 3px;
+                border-radius: 5px;
+            }
+            .link-ad{
+                background-color: #065FD4;
+                color: #fff;
+                text-align: center;
+                border-radius: 2px;
+                height: 37px;
+                line-height: 37px;
+            }
+
+        }
+
+
+    }
+
+    .videos-title{
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .videos{
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        max-width: 1000px;
+        height: 160px;
+        margin: 0 auto;
+        margin-top: 20px;
+        
+
+        .video{
+            width: 240px;
+            height: 120px;
+
+            .video-duration{
+                position: relative;
+                top: -30px;
+                left: 190px;
+                background-color: rgba($color: #000000, $alpha: 0.5);
+                width: 38px;
+                padding: 2px;
+                color: #fff;
+                border-radius: 2px;
+                font-size: 14px;
+            }
+            .titulo-video{
+                font-size: 14px;
+                font-weight: bold;
+                margin-top: 5px;
+                margin-bottom: 5px;
+            }
+
+            .small-info{
+                font-size: 13px;
+                color: #606060;
+            }
+        }
+
+    }
+
+    .divisor{
+        margin: 0 auto;
+        width: 90%;
+        margin-top: 150px;
+        margin-bottom: 30px;
+        border: 1px solid rgba(0, 0, 0, 0.1);
+    }
+}
+
+
+
+
+
+
+
+
+.ico-color{
+    color: #606060;
+}
+.icon-hamburguer{
+    font-size: 24px;
+    margin: 0 16px 0 0;
+    padding: 8px;
+}

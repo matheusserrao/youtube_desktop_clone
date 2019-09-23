@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+
+    <!--CSS-->
+    <link rel="stylesheet" href="css/style.css">
+
+    <!--Font Awesome-->
+    <script src="https://kit.fontawesome.com/348f2b4683.js" crossorigin="anonymous"></script>
+
+    <!--Fontes-->
+    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="nav-left">
+                <i class="fas fa-bars icon-hamburguer ico-color"></i>
+                <img src="img/logo.svg" width="80px;">
+            </div>
+
+            <div class="nav-center">
+                <form>
+                    <div class="group-search">
+                        <input type="text" id="input-pesquisar" placeholder="Pesquisar">
+                        <i class="fas fa-keyboard ico-color"></i>
+                    </div>
+                    <button type="submit" id="btn-pesquisa"><i class="fas fa-search ico-color"></i></button>
+                </form>
+            </div>
+
+            <div class="nav-right">
+                <a><i class="fas fa-video ico-color"></i></a>
+                <a><i class="fas fa-th ico-color"></i></a>
+                <a><i class="fas fa-share-square ico-color"></i></a>
+                <a><i class="fas fa-bell ico-color"></i></a>
+                <a><i class="fas fa-user-circle ico-color" id="user"></i></a>
+            </div>
+        </nav>
+    </header>
+
+    <aside>
+        <a class="active"><i class="fas fa-home"></i> Inicio</a>
+        <a><i class="fas fa-fire-alt ico-color"></i>Em alta</a>
+        <a><i class="fas fa-bookmark ico-color"></i>Inscrições</a>
+
+        <hr>
+
+        <a><i class="fas fa-folder ico-color"></i>Biblioteca</a>
+        <a><i class="fas fa-history ico-color"></i>Histórico</a>
+        <a><i class="fas fa-clock ico-color"></i>Assistir mais tarde</a>
+        <a><i class="fas fa-tag ico-color"></i>Compras</a>
+        <a><i class="fas fa-thumbs-up ico-color"></i>Videos marcados...</a>
+        <a><i class="fas fa-chevron-down ico-color"></i>Mostrar mais</a>
+
+        <hr>
+
+        <b>INSCRIÇÕES</b>
+        <a><i class="fas fa-user-circle ico-color"></i>Canal do Youtube</a>
+        <a><i class="fas fa-user-circle ico-color"></i>Canal do Youtube</a>
+        <a><i class="fas fa-user-circle ico-color"></i>Canal do Youtube</a>
+        <a><i class="fas fa-user-circle ico-color"></i>Canal do Youtube</a>
+        <a><i class="fas fa-user-circle ico-color"></i>Canal do Youtube</a>
+        <a><i class="fas fa-user-circle ico-color"></i>Canal do Youtube</a>
+        <a><i class="fas fa-user-circle ico-color"></i>Canal do Youtube</a>
+
+        <hr>
+
+        <b>MAIS DO YOUTUBE</b>
+        <a><i class="fab fa-youtube ico-color"></i>YouTube Premium</a>
+        <a><i class="fas fa-film ico-color"></i>YouTube Filmes</a>
+        <a><i class="fas fa-gamepad ico-color"></i>Jogos</a>
+        <a><i class="fas fa-broadcast-tower ico-color"></i>Ao vivo</a>
+        <a><i class="fas fa-tshirt ico-color"></i>Moda</a>
+
+        <hr>
+
+        <a><i class="fas fa-cog ico-color"></i>Configurações</a>
+        <a><i class="fas fa-flag ico-color"></i>Histórico de denú...</a>
+        <a><i class="fas fa-question-circle ico-color"></i>Ajuda</a>
+        <a><i class="fas fa-info-circle ico-color"></i>Enviar feedback</a>
+
+        <hr>
+
+        <div class="about">
+            <p>Sobre</p>
+            <p>Empresa</p>
+            <p>Direitos autorais</p>
+            <p>Entre em contato</p>
+            <p>Criadores de conteúdo</p>
+            <p>Publicidade</p>
+            <p>Desenvolvedores</p>
+            <p>Termos de privacidade</p>
+            <p>Politica e Segurança</p>
+            <p>Testar os novos recursos</p>
+        </div>
+
+        <div class="about">
+            <span>
+                © 2019 YouTube, LLC
+            </span>
+        </div>
+
+    </aside>
+
+    <section>
+        <div class="ad">
+            <div class="ad-left">
+                <img src="img/youtubeAD.jpg">
+            </div>
+            <div class="ad-right">
+                <img src="img/youtubeAD.jpg" height="240px">
+                <div class="ad-right-down">
+                    <a><i class="fas fa-user-circle ico-color"></i></a>
+                    <div class="canal-ad">
+                        <b>YouTube Brasil</b>
+                        <div class="ad-info"><a class="id-tag">Anuncio</a>
+                            <p>Youtube</p>
+                        </div>
+                        <a class="link-ad">Conheça</a>
+                    </div>
+
+                    <i class="fas fa-ellipsis-v config-ad ico-color"></i>
+                </div>
+            </div>
+        </div>
+
+        <div class="videos">
+            <h4 class="videos-title">Youtube Playlist</h4>
+            <div class="video">
+                <div class="thumb-video">
+                    <img src="https://picsum.photos/240/120?random=1">
+                    <p class="video-duration">10:00</p>
+                </div>
+                <p class="titulo-video">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                <div class="small-info">
+                    <p>Canal Youtube</p>
+                    <p>0 visualizações</p>
+                    <p>há 12 meses</p>
+                </div>
+            </div>
+            <div class="video">
+                <div class="thumb-video">
+                    <img src="https://picsum.photos/240/120?random=2">
+                    <p class="video-duration">10:00</p>
+                </div>
+                <p class="titulo-video">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                <div class="small-info">
+                    <p>Canal Youtube</p>
+                    <p>0 visualizações</p>
+                    <p>há 12 meses</p>
+                </div>
+            </div>
+            <div class="video">
+                <div class="thumb-video">
+                    <img src="https://picsum.photos/240/120?random=3">
+                    <p class="video-duration">10:00</p>
+                </div>
+                <p class="titulo-video">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                <div class="small-info">
+                    <p>Canal Youtube</p>
+                    <p>0 visualizações</p>
+                    <p>há 12 meses</p>
+                </div>
+            </div>
+            <div class="video">
+                <div class="thumb-video">
+                    <img src="https://picsum.photos/240/120?random=4">
+                    <p class="video-duration">10:00</p>
+                </div>
+                <p class="titulo-video">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                <div class="small-info">
+                    <p>Canal Youtube</p>
+                    <p>0 visualizações</p>
+                    <p>há 12 meses</p>
+                </div>
+            </div>
+        </div>
+
+        <hr class="divisor">
+
+        <div class="videos">
+            <h4 class="videos-title">Youtube Playlist</h4>
+            <div class="video">
+                <div class="thumb-video">
+                    <img src="https://picsum.photos/240/120?random=5">
+                    <p class="video-duration">10:00</p>
+                </div>
+                <p class="titulo-video">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                <div class="small-info">
+                    <p>Canal Youtube</p>
+                    <p>0 visualizações</p>
+                    <p>há 12 meses</p>
+                </div>
+            </div>
+            <div class="video">
+                <div class="thumb-video">
+                    <img src="https://picsum.photos/240/120?random=6">
+                    <p class="video-duration">10:00</p>
+                </div>
+                <p class="titulo-video">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                <div class="small-info">
+                    <p>Canal Youtube</p>
+                    <p>0 visualizações</p>
+                    <p>há 12 meses</p>
+                </div>
+            </div>
+            <div class="video">
+                <div class="thumb-video">
+                    <img src="https://picsum.photos/240/120?random=7">
+                    <p class="video-duration">10:00</p>
+                </div>
+                <p class="titulo-video">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                <div class="small-info">
+                    <p>Canal Youtube</p>
+                    <p>0 visualizações</p>
+                    <p>há 12 meses</p>
+                </div>
+            </div>
+            <div class="video">
+                <div class="thumb-video">
+                    <img src="https://picsum.photos/240/120?random=8">
+                    <p class="video-duration">10:00</p>
+                </div>
+                <p class="titulo-video">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                <div class="small-info">
+                    <p>Canal Youtube</p>
+                    <p>0 visualizações</p>
+                    <p>há 12 meses</p>
+                </div>
+            </div>
+        </div>
+
+        <hr class="divisor">
+
+        <div class="videos">
+            <h4 class="videos-title">Youtube Playlist</h4>
+            <div class="video">
+                <div class="thumb-video">
+                    <img src="https://picsum.photos/240/120?random=9">
+                    <p class="video-duration">10:00</p>
+                </div>
+                <p class="titulo-video">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                <div class="small-info">
+                    <p>Canal Youtube</p>
+                    <p>0 visualizações</p>
+                    <p>há 12 meses</p>
+                </div>
+            </div>
+            <div class="video">
+                <div class="thumb-video">
+                    <img src="https://picsum.photos/240/120?random=10">
+                    <p class="video-duration">10:00</p>
+                </div>
+                <p class="titulo-video">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                <div class="small-info">
+                    <p>Canal Youtube</p>
+                    <p>0 visualizações</p>
+                    <p>há 12 meses</p>
+                </div>
+            </div>
+            <div class="video">
+                <div class="thumb-video">
+                    <img src="https://picsum.photos/240/120?random=11">
+                    <p class="video-duration">10:00</p>
+                </div>
+                <p class="titulo-video">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                <div class="small-info">
+                    <p>Canal Youtube</p>
+                    <p>0 visualizações</p>
+                    <p>há 12 meses</p>
+                </div>
+            </div>
+            <div class="video">
+                <div class="thumb-video">
+                    <img src="https://picsum.photos/240/120?random=12">
+                    <p class="video-duration">10:00</p>
+                </div>
+                <p class="titulo-video">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                <div class="small-info">
+                    <p>Canal Youtube</p>
+                    <p>0 visualizações</p>
+                    <p>há 12 meses</p>
+                </div>
+            </div>
+        </div>
+
+        <hr class="divisor">
+
+        <div class="videos">
+            <h4 class="videos-title">Youtube Playlist</h4>
+            <div class="video">
+                <div class="thumb-video">
+                    <img src="https://picsum.photos/240/120?random=13">
+                    <p class="video-duration">10:00</p>
+                </div>
+                <p class="titulo-video">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                <div class="small-info">
+                    <p>Canal Youtube</p>
+                    <p>0 visualizações</p>
+                    <p>há 12 meses</p>
+                </div>
+            </div>
+            <div class="video">
+                <div class="thumb-video">
+                    <img src="https://picsum.photos/240/120?random=14">
+                    <p class="video-duration">10:00</p>
+                </div>
+                <p class="titulo-video">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                <div class="small-info">
+                    <p>Canal Youtube</p>
+                    <p>0 visualizações</p>
+                    <p>há 12 meses</p>
+                </div>
+            </div>
+            <div class="video">
+                <div class="thumb-video">
+                    <img src="https://picsum.photos/240/120?random=15">
+                    <p class="video-duration">10:00</p>
+                </div>
+                <p class="titulo-video">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                <div class="small-info">
+                    <p>Canal Youtube</p>
+                    <p>0 visualizações</p>
+                    <p>há 12 meses</p>
+                </div>
+            </div>
+            <div class="video">
+                <div class="thumb-video">
+                    <img src="https://picsum.photos/240/120?random=16">
+                    <p class="video-duration">10:00</p>
+                </div>
+                <p class="titulo-video">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                <div class="small-info">
+                    <p>Canal Youtube</p>
+                    <p>0 visualizações</p>
+                    <p>há 12 meses</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+</body>
+
+</html>
